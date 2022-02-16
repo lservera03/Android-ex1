@@ -1,3 +1,15 @@
 <resources>
-    <string name="app_name">ex1</string>
+    <string name="app_name">GeoQuiz</string>
+    <string name="first_question_text">Canberra is the capital of Australia.</string>
+    <string name="second_question_text">EEUU has 55 states.</string>
+    <string name="third_question_text">Europe is the continent with most population.</string>
+    <string name="fourth_question_text">Sahara is the biggest desert in the world.</string>
+    <string name="fifth_question_text">Madrid is the capital of Spain.</string>
+    <string name="end_game_text">You answered all the questions.</string>
+    <string name="try_again_text">Try again</string>
+    <string name="points_text">Points: </string>
+    <string name="true_button">True</string>
+    <string name="false_button">False</string>
+    <string name="correct_toast">Correct!</string>
+    <string name="incorrect_toast">Incorrect!</string>
 </resources>
