@@ -1,13 +1,16 @@
 package com.luisangelservera.ex1.business;
 
+import androidx.annotation.StringRes;
+
 public class Question {
 
 
+    @StringRes
     private int question;
     private boolean solution;
 
 
-    public Question(int question, boolean solution) {
+    public Question(@StringRes int question, boolean solution) {
         this.question = question;
         this.solution = solution;
     }
@@ -16,7 +19,7 @@ public class Question {
         return question;
     }
 
-    public boolean isTrue(){
+    public boolean isTrue() {
         return this.solution;
     }
 }
